@@ -1,6 +1,6 @@
 {
     "ANSIBLE_MODULE_ARGS": {
-      "key_name": "debug_key",
+      "key_name": "debugkey",
       "keyvault_uri": "https://tmpkeyvault.vault.azure.net",
       "state": "absent"
     }

@@ -5,4 +5,4 @@
   - name: create a kevyault key
     azure_rm_keyvaultkey:
       keyvault_uri: https://tmpkeyvault.vault.azure.net
-      secret_name: samplekey
+      secret_name: playkey
