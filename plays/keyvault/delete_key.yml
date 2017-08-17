@@ -3,7 +3,7 @@
   gather_facts: no
   tasks:
   - name: delete a kevyault key
-    azure_rm_keyvaultsecret:
+    azure_rm_keyvaultkey:
       keyvault_uri: https://tmpkeyvault.vault.azure.net
       state: absent
-      secret_name: playkey
+      key_name: playkey

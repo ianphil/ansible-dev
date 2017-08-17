@@ -1,6 +1,7 @@
 {
     "ANSIBLE_MODULE_ARGS": {
       "key_name": "debugkey",
-      "keyvault_uri": "https://tmpkeyvault.vault.azure.net"
+      "keyvault_uri": "https://tmpkeyvault.vault.azure.net",
+      "tags": {"test": "debug", "johnny": "dang"}
     }
   }
