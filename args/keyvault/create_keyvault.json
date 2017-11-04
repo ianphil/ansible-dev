@@ -5,6 +5,8 @@
         "state": "present",
         "enabled_for_deployment": true,
         "sku": "premium",
-        "location": "eastus"
+        "location": "eastus",
+        "tenant_id": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "object_id": "0c17c8b9-02a4-4af2-a96f-143fe6b22148"
     }
 }
