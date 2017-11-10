@@ -1,0 +1,10 @@
+- hosts: localhost
+  connection: local
+  gather_facts: no
+  tasks:
+  - name: delete a kevyault
+    azure_rm_keyvault:
+      resource_group: tmpkeyvault
+      name: debugkey
+      state: absent
+      location: eastus

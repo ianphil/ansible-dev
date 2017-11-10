@@ -1,0 +1,12 @@
+- hosts: localhost
+  connection: local
+  gather_facts: no
+  tasks:
+  - name: create a kevyault
+    azure_rm_keyvault:
+      resource_group: tmpkeyvault
+      name: debugkey
+      state: present
+      enabled_for_deployment: True
+      location: westus
+      sku: premium
